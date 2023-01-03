@@ -14,12 +14,17 @@
     float: left;
 }
 
-.menu{
+nav{
     float: left;
+    text-align: center;
 }
 
-.menu ul li{
+nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+}
+
+nav ul li {
+    padding: 0 1%;
 }
