@@ -164,6 +164,16 @@ tr,td{
 
 /* resume section */
 
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .section-title{
     font-size: 30px;
     color:#181818;
@@ -171,4 +181,27 @@ tr,td{
 
 .resume-container{
     display: flex;
+}
+
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description{
+    color: #757575;
+}
+
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
 }
