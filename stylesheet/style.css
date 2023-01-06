@@ -229,3 +229,20 @@ tr,td{
 .contact-me a{
     text-decoration: none;
 }
+
+.two-btn{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.DCV {
+    font-size: 15px;
+    padding: 14px 35px;
+}
+.CPHN {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+    font-size: 15px;
+}
